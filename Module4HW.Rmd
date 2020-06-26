@@ -1,0 +1,34 @@
+
+---
+title: "Aaron's Markdown"
+output: html_document
+---
+
+
+## R Markdown
+
+This is my first markdown, how exciting! I am going to be using the NYC flight details for this document since that is one we have become quite familiar with.
+
+Enjoy this random information about flights from New York City in the year of 2013. Learning R has made it more interesting to analyse data, experimenting with the different results and finding that you can create. 
+
+Below are the flights sorted out so that you can see which were the most delayed:
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(dplyr)
+
+delay <- flights%>%
+  filter(dep_delay<=120,arr_delay<=120)
+```
+
+## Including Plots
+
+I also included a plot of the cars data we became familiar with. Below is the relationship between the engine size (displ) and fuel efficiency (hwy) separated by class in color:
+
+```{r cars, echo=FALSE}
+delay%>%
+  ggplot(aes(dep_delay))+
+  geom_freqpoly()
+```
+
+This took me a while to mess around with in order to get the tables and graphs right even though they are from different data sets! I hope you enjoyed my first markdown! 

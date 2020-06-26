@@ -1,0 +1,35 @@
+---
+title: "Data Confusion"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## R Markdown
+
+This is my first markdown, how exciting! I am going to be using the diamonds data for this document since that is one we have become quite familiar with.
+
+Large amounts of data can make interpretation pretty confusing sometimes. Learning R has made it more interesting to analyse data, experimenting with the different results and findings that you can create. 
+
+Below are the average prices of diamonds split up by cut, confusingly resulting in an Ideal cut averaging a lower price than a Fair cut:
+
+```{r cut}
+ggplot(data=diamonds,mapping=aes(x=cut,y=price))+
+  geom_boxplot()
+```
+
+## Including Plots
+
+I also included a plot of the carat sized compared to price. Here we get a pretty different answer, showing that as the carat size gets larger the price gets bigger. 
+
+```{r carat, echo=FALSE}
+ggplot(data=diamonds,mapping=aes(x=carat,y=price))+
+  geom_point()
+```
+
+This took me a while to mess around with in order to get the tables and graphs right even though they are from different data sets!
+
+We can see though that data has lots of variables with many ranges, so here we see that there can be many different sized diamonds for different prices and that even a small carat can be worth a lot of money. All data is important! I hope you enjoyed my first markdown! 

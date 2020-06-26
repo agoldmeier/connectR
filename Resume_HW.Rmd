@@ -1,0 +1,69 @@
+---
+title: "Aaron's Resume"
+date: "6/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Education
+
+------------------------------------
+
+**Yeshiva University, Katz School of Science and Health** 
+**New York, NY**
+
+*Master of Science,* 
+Marketing Analytics Expected: Spring 2021
+
+**Relevant Coursework:** 
+Brand Management, Communications, Visual Design & Storytelling, & Strategy. 
+
+**Yeshiva University, Sy Syms School of Business New York, NY**
+*Bachelor of Science,* Major in Marketing and Minor in Management 
+**May 2018** 
+
+
+
+## Work Experience
+
+------------------------------------------
+
+**1stdibs**
+*Client Services Specialist*
+**New York, NY**
+September 2019 – Present
+
+* Provide research and analysis to team members and assist them with various issues that arise while resolving cases
+
+* Assist 20+ clients via phone and email in negotiating better deals for items valuing ~5k
+
+* Consumer-facing specialist for luxury E-commerce brand responsible for $3M+ annual transaction volume
+
+**Coalfire**            
+*Restaurant Headwaiter*
+**Chicago, IL**
+February 2019 - August 2019
+
+
+* Developed social media marketing strategies to better improve restaurant traffic and awareness
+
+* Oversaw a team of 5 dining hosts and 4 kitchen staff in popular Chicago restaurant serving Italian locale
+
+* Managed reservation log, coordinating weekly traffic of over 250 satisfied patrons
+
+
+## References
+
+------
+
+> "Aaron is an incredibly hard worker" 
+
+> "Aaron is detail oriented and organized" 
+
+> "Aaron is a teamplayer and a pleasure to work with"[^1]
+
+[^1]: Interests include: Sports, TV/Movies, Hiking
+
