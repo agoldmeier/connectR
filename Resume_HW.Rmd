@@ -16,10 +16,10 @@ knitr::opts_chunk$set(echo = TRUE)
 **New York, NY**
 
 *Master of Science,* 
-Marketing Analytics Expected: Spring 2021
+Marketing Analytics To Be Expected: Spring 2021
 
 **Relevant Coursework:** 
-Brand Management, Communications, Visual Design & Storytelling, & Strategy. 
+Brand Management, Communications, Social Media Management, Visual Design & Storytelling, & Strategy. 
 
 **Yeshiva University, Sy Syms School of Business New York, NY**
 *Bachelor of Science,* Major in Marketing and Minor in Management 
